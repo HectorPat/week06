@@ -1,13 +1,14 @@
 #include <stdio.h>
 
-int main(void) {
-  int Hora, Minutos, Tminutos;
-  printf("ingresar numero de horas\n");
-  scanf("%d" ,&Hora);
-  printf("ingresar numero de minutos\n");
-  scanf("%d",&Minutos);
-  Tminutos= (((Hora)*(60))+(Minutos)); 
-  printf("tienes en total %d minutos\n", Tminutos);
+float decimal = 2.5;
+int entero = 5;
+char letra[]= "C";
 
-  return 0;
+int main() {
+
+printf("el decimal %.1f en D es %d", decimal,decimal);
+printf("\nel entero %d en F es %f", entero,entero);
+printf("\nla letra %s en D es %d", letra,letra);
+	
+  return(0);
 }
